@@ -1,0 +1,100 @@
+<expr type="question">
+<question value="Is it a social media app?" />
+	<expr type="question">
+	<question value="Can you share photos directly with other people using this app?" />
+		
+		<expr type="question">
+		<question value="Can you also post directly on other people's accounts?" />
+			<expr type="question">
+			<question value="Can you write for more than 140 characters?" />
+				<expr type="answer">
+					<answer value="Facebook" />
+				</expr>
+				<expr type="answer">
+					<answer value="Twitter" />
+				</expr>
+			</expr>
+			<expr type="question">
+			<question value="Do the shared photos always have to be square-shaped?" />
+				<expr type="answer">
+					<answer value="Instagram" />
+				</expr>
+				<expr type="answer">
+					<answer value="Snapchat" />
+				</expr>
+			</expr>
+		</expr>	
+		
+		<expr type="question">
+		<question value="Can you share videos directly?" />
+			<expr type="question">
+			<question value="Does it have a large and culturally diverse video database?" />
+				<expr type="answer">
+					<answer value="YouTube" />
+				</expr>
+				<expr type="answer">
+					<answer value="Vine" />
+				</expr>
+			</expr>
+			<expr type="question">
+			<question value="Does it allow you to post anonymously?" />
+				<expr type="answer">
+					<answer value="Yik Yak" />
+				</expr>
+				<expr type="answer">
+					<answer value="LinkedIn" />
+				</expr>
+			</expr>
+		</expr>	
+	</expr>
+	
+	<expr type="question">
+	<question value="Is it a game app?" />
+		
+		<expr type="question">
+		<question value="Does it involve animal elements (especially birds)?" />
+			<expr type="question">
+			<question value="Is it already taken off Android Market?" />
+				<expr type="answer">
+					<answer value="Flappy Bird" />
+				</expr>
+				<expr type="answer">
+					<answer value="Angry Birds" />
+				</expr>
+			</expr>
+			<expr type="question">
+			<question value="Is it an action/adventure game?" />
+				<expr type="answer">
+					<answer value="Temple Run" />
+				</expr>
+				<expr type="answer">
+					<answer value="Candy Crush" />
+				</expr>
+			</expr>
+		</expr>	
+		
+		<expr type="question">
+		<question value="Does the app facilitate your communication with other people?" />
+			<expr type="question">
+			<question value="Is it a popular video call app?" />
+				<expr type="answer">
+					<answer value="Skype" />
+				</expr>
+				<expr type="answer">
+					<answer value="WhatsApp" />
+				</expr>
+			</expr>
+			<expr type="question">
+			<question value="Does it help you find your way around a new place?" />
+				<expr type="answer">
+					<answer value="Maps" />
+				</expr>
+				<expr type="answer">
+					<answer value="Calculator" />
+				</expr>
+			</expr>
+		</expr>	
+	</expr>
+</expr>
+	
+	
